@@ -44,6 +44,14 @@ Partial Class Main
         Me.Guna2Shapes7 = New Guna.UI2.WinForms.Guna2Shapes()
         Me.Guna2Shapes6 = New Guna.UI2.WinForms.Guna2Shapes()
         Me.Guna2PictureBox12 = New Guna.UI2.WinForms.Guna2PictureBox()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.TotalEmployee = New System.Windows.Forms.Label()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.Label5 = New System.Windows.Forms.Label()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.Label6 = New System.Windows.Forms.Label()
+        Me.Label7 = New System.Windows.Forms.Label()
         CType(Me.Guna2PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Guna2PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Guna2PictureBox8, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -331,7 +339,7 @@ Partial Class Main
         '
         Me.Guna2Shapes6.BackColor = System.Drawing.Color.White
         Me.Guna2Shapes6.BorderColor = System.Drawing.Color.Empty
-        Me.Guna2Shapes6.FillColor = System.Drawing.Color.FromArgb(CType(CType(73, Byte), Integer), CType(CType(118, Byte), Integer), CType(CType(235, Byte), Integer))
+        Me.Guna2Shapes6.FillColor = System.Drawing.Color.FromArgb(CType(CType(38, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(58, Byte), Integer))
         Me.Guna2Shapes6.LineThickness = 1
         Me.Guna2Shapes6.Location = New System.Drawing.Point(683, 286)
         Me.Guna2Shapes6.Margin = New System.Windows.Forms.Padding(2)
@@ -359,11 +367,135 @@ Partial Class Main
         Me.Guna2PictureBox12.TabStop = False
         Me.Guna2PictureBox12.UseTransparentBackground = True
         '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.BackColor = System.Drawing.Color.White
+        Me.Label2.Font = New System.Drawing.Font("Tw Cen MT Condensed", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(38, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(58, Byte), Integer))
+        Me.Label2.Location = New System.Drawing.Point(244, 121)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(119, 22)
+        Me.Label2.TabIndex = 124
+        Me.Label2.Text = "Total Employees"
+        Me.Label2.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        '
+        'TotalEmployee
+        '
+        Me.TotalEmployee.AutoSize = True
+        Me.TotalEmployee.BackColor = System.Drawing.Color.White
+        Me.TotalEmployee.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.TotalEmployee.Font = New System.Drawing.Font("Tw Cen MT", 28.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TotalEmployee.ForeColor = System.Drawing.Color.FromArgb(CType(CType(73, Byte), Integer), CType(CType(118, Byte), Integer), CType(CType(235, Byte), Integer))
+        Me.TotalEmployee.Location = New System.Drawing.Point(215, 77)
+        Me.TotalEmployee.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.TotalEmployee.Name = "TotalEmployee"
+        Me.TotalEmployee.Size = New System.Drawing.Size(59, 44)
+        Me.TotalEmployee.TabIndex = 123
+        Me.TotalEmployee.Text = "00"
+        Me.TotalEmployee.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.BackColor = System.Drawing.Color.White
+        Me.Label3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Label3.Font = New System.Drawing.Font("Tw Cen MT", 28.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(73, Byte), Integer), CType(CType(118, Byte), Integer), CType(CType(235, Byte), Integer))
+        Me.Label3.Location = New System.Drawing.Point(502, 77)
+        Me.Label3.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(59, 44)
+        Me.Label3.TabIndex = 125
+        Me.Label3.Text = "03"
+        Me.Label3.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.BackColor = System.Drawing.Color.White
+        Me.Label4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Label4.Font = New System.Drawing.Font("Tw Cen MT", 28.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.ForeColor = System.Drawing.Color.FromArgb(CType(CType(73, Byte), Integer), CType(CType(118, Byte), Integer), CType(CType(235, Byte), Integer))
+        Me.Label4.Location = New System.Drawing.Point(787, 77)
+        Me.Label4.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(59, 44)
+        Me.Label4.TabIndex = 126
+        Me.Label4.Text = "12"
+        Me.Label4.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        '
+        'Label5
+        '
+        Me.Label5.AutoSize = True
+        Me.Label5.BackColor = System.Drawing.Color.White
+        Me.Label5.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Label5.Font = New System.Drawing.Font("Tw Cen MT", 28.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.ForeColor = System.Drawing.Color.FromArgb(CType(CType(73, Byte), Integer), CType(CType(118, Byte), Integer), CType(CType(235, Byte), Integer))
+        Me.Label5.Location = New System.Drawing.Point(1070, 77)
+        Me.Label5.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(59, 44)
+        Me.Label5.TabIndex = 127
+        Me.Label5.Text = "08"
+        Me.Label5.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.BackColor = System.Drawing.Color.White
+        Me.Label1.Font = New System.Drawing.Font("Tw Cen MT Condensed", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(38, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(58, Byte), Integer))
+        Me.Label1.Location = New System.Drawing.Point(1105, 121)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(98, 22)
+        Me.Label1.TabIndex = 128
+        Me.Label1.Text = "Total Awards"
+        Me.Label1.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        '
+        'Label6
+        '
+        Me.Label6.AutoSize = True
+        Me.Label6.BackColor = System.Drawing.Color.White
+        Me.Label6.Font = New System.Drawing.Font("Tw Cen MT Condensed", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.ForeColor = System.Drawing.Color.FromArgb(CType(CType(38, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(58, Byte), Integer))
+        Me.Label6.Location = New System.Drawing.Point(506, 121)
+        Me.Label6.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(135, 22)
+        Me.Label6.TabIndex = 129
+        Me.Label6.Text = "Total  Attendances"
+        Me.Label6.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        '
+        'Label7
+        '
+        Me.Label7.AutoSize = True
+        Me.Label7.BackColor = System.Drawing.Color.White
+        Me.Label7.Font = New System.Drawing.Font("Tw Cen MT Condensed", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label7.ForeColor = System.Drawing.Color.FromArgb(CType(CType(38, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(58, Byte), Integer))
+        Me.Label7.Location = New System.Drawing.Point(835, 121)
+        Me.Label7.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(87, 22)
+        Me.Label7.TabIndex = 130
+        Me.Label7.Text = "Total Leave"
+        Me.Label7.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        '
         'Main
         '
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None
         Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(1265, 683)
+        Me.Controls.Add(Me.Label7)
+        Me.Controls.Add(Me.Label6)
+        Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.Label5)
+        Me.Controls.Add(Me.Label4)
+        Me.Controls.Add(Me.Label3)
+        Me.Controls.Add(Me.Label2)
+        Me.Controls.Add(Me.TotalEmployee)
         Me.Controls.Add(Me.Guna2Shapes6)
         Me.Controls.Add(Me.Guna2PictureBox1)
         Me.Controls.Add(Me.Guna2Shapes3)
@@ -402,6 +534,7 @@ Partial Class Main
         CType(Me.Guna2PictureBox11, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Guna2PictureBox12, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
 
@@ -425,4 +558,12 @@ Partial Class Main
     Friend WithEvents Guna2Shapes1 As Guna.UI2.WinForms.Guna2Shapes
     Friend WithEvents Guna2Shapes6 As Guna.UI2.WinForms.Guna2Shapes
     Friend WithEvents Guna2PictureBox12 As Guna.UI2.WinForms.Guna2PictureBox
+    Friend WithEvents Label5 As Label
+    Friend WithEvents Label4 As Label
+    Friend WithEvents Label3 As Label
+    Friend WithEvents Label2 As Label
+    Friend WithEvents TotalEmployee As Label
+    Friend WithEvents Label1 As Label
+    Friend WithEvents Label7 As Label
+    Friend WithEvents Label6 As Label
 End Class
